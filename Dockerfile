@@ -25,4 +25,6 @@ RUN apt -y install tzdata && \
     
 RUN gem install flvtool2
 
+RUN /bin/sh /app/run.sh
+
 ENTRYPOINT ["/bin/sh"]
