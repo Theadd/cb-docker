@@ -1,3 +1,6 @@
+FROM ubuntu:bionic
+
+MAINTAINER R. Beltran <rbeltran8000@gmail.com>
 
 RUN apt update && \
     apt upgrade -y
