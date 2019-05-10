@@ -3,7 +3,7 @@ FROM ubuntu:bionic
 MAINTAINER R. Beltran <rbeltran8000@gmail.com>
 
 RUN apt update && \
-    apt upgrade -y
+    apt upgrade -y && apt -y install apt-utils
 
 ENV DEBIAN_FRONTEND=noninteractive
 ENV TZ=Europe/Paris
