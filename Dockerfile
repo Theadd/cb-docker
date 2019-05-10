@@ -18,7 +18,7 @@ RUN apt -y install tzdata && \
     apt -y install php7.0 && \
     apt -y install php7.0-curl php7.0-gd php7.0-mbstring php7.0-mysql php7.0-xml php7.0-zip php7.0-bz2 && \
     apt -y install imagemagick php-imagick php-pear && \
-    apt -y install ffmpeg mplayer mencoder gpac && \
+    apt -y install ffmpeg mplayer mencoder gpac git && \
     apt -y install ruby-full && \
     apt -y install mediainfo && \
     rm -rf /var/lib/apt/lists/*
